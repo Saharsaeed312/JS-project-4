@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:                                                                                                               rgb(201, 145, 24);
+}
+.container{
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+select ,input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+option{
+    color: #ccc;
+}
+
+button{
+    background-color: rgb(235, 111, 132);
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+#convertedTemprature{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: bold;
+}
+@media screen and(max-width:500px){
+    .container{width: 90%;}
+}
+@keyframes fadeIn{}
